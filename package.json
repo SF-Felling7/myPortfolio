@@ -1,0 +1,23 @@
+{
+  "name": "my_portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SF-Felling7/myPortfolio.git"
+  },
+  "author": "Sean Felling",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SF-Felling7/myPortfolio/issues"
+  },
+  "homepage": "https://github.com/SF-Felling7/myPortfolio#readme",
+  "dependencies": {
+    "angular": "^1.6.5",
+    "angular-route": "^1.6.5"
+  }
+}
