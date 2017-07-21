@@ -18,6 +18,9 @@
   "homepage": "https://github.com/SF-Felling7/myPortfolio#readme",
   "dependencies": {
     "angular": "^1.6.5",
+    "angular-animate": "^1.6.5",
+    "angular-aria": "^1.6.5",
+    "angular-material": "^1.1.4",
     "angular-route": "^1.6.5"
   }
 }
