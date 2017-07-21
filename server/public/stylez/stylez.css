@@ -2,8 +2,8 @@ body{
   background: url(http://baptistevillemur.fr/images/wolf-background.svg) repeat;
    background-size: contain;
    height: 25vh;
-  font-family: monospace, Helvetica, Verdana, Geneva, sans-serif;
-  font-size: 16px;
+   font-family: monospace, Helvetica, Verdana, Geneva, sans-serif;
+   font-size: 16px;
 }
 #pagewrap{
   max-width: 100%;
@@ -59,3 +59,17 @@ nav ul li a:hover, nav ul li a:active{
   padding-bottom: 8px;
 }
 /* end of navigation section*/
+
+.myBrand {
+	font-family: cursive;
+	font-size: 78px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+  padding: 35px;
+  /*border: 10px solid transparent;*/
+  box-sizing: border-box;
+  display: inline-block;
+  background: white;
+}
