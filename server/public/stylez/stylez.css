@@ -22,8 +22,9 @@ body{
   height: auto;
   margin: 0 auto 2% auto;
   background-position: 50% 20%;
-  padding-top: 50vh;
+  padding-top: 30vh;
   padding-bottom: 50vh;
+  text-align: center;
 }
 
 nav{
