@@ -1,18 +1,15 @@
 console.log( 'Working' );
 
-var portFolioApp = angular.module( 'portFolioApp', ['ng-route'] );
+var portFolioApp = angular.module( 'portFolioApp', ['ngRoute'] );
 
 
 portFolioApp.config(function($routeProvider, $locationProvider) {
  $routeProvider.when('/about', {
    templateUrl: '/views/pages/about.html',
-   controller: 'aboutController as ac'
  }).when( '/contact',{
-   templateUrl: '/views/pages/contact.html',
-   controller: 'contactController as cc'
+   templateUrl: '/views/pages/contact.html'
  }).when( '/gallery', {
-   templateUrl: '/views/pages/gallery.html',
-   controller: 'galleryController as gc'
+   templateUrl: '/views/pages/gallery.html'
  }).otherwise('/');
 
  $locationProvider.html5Mode(true);

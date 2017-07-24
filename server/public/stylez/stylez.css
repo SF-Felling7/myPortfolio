@@ -1,5 +1,5 @@
 body{
-  background: url(http://baptistevillemur.fr/images/wolf-background.svg) repeat;
+  background: url('http://baptistevillemur.fr/images/wolf-background.svg') repeat;
    background-size: contain;
    height: 25vh;
    font-family: monospace, Helvetica, Verdana, Geneva, sans-serif;
