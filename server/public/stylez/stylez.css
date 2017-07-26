@@ -59,8 +59,9 @@ nav ul li a{
 
 /* an underline appears at the bottom on hover of each link */
 nav ul li a:hover, nav ul li a:active{
-  border-bottom: 2px solid #FAEBD7;
+  text-decoration: none;
   padding-bottom: 8px;
+  background-color: #FAEBD7;
 }
 /* end of navigation section*/
 
