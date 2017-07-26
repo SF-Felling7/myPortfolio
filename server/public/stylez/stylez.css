@@ -76,7 +76,7 @@ nav ul li a:hover, nav ul li a:active{
   box-sizing: border-box;
   display: inline-block;
 }
-@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+/*@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
 
 
 .socialbtns, .socialbtns ul, .socialbtns li{
@@ -114,4 +114,4 @@ nav ul li a:hover, nav ul li a:active{
 	-moz-transition: all ease 0.5s;
 	-webkit-transition: all ease 0.5s;
 	-o-transition: all ease 0.5s;
-}
+}*/
