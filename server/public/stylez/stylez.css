@@ -1,6 +1,6 @@
 body{
-  background: url('http://baptistevillemur.fr/images/wolf-background.svg') repeat;
-   background-size: contain;
+  background: url('https://i.stack.imgur.com/jGlzr.png') no-repeat;
+   background-size: cover;
    height: 25vh;
    font-family: monospace, Helvetica, Verdana, Geneva, sans-serif;
    font-size: 16px;
@@ -71,5 +71,4 @@ nav ul li a:hover, nav ul li a:active{
   padding: 35px;
   box-sizing: border-box;
   display: inline-block;
-  background: white;
 }
