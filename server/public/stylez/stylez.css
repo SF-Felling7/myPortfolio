@@ -5,7 +5,6 @@ body{
   -o-background-size: cover;
   background-size: cover;
   height: 25vh;
-  font-family: monospace, Helvetica, Verdana, Geneva, sans-serif;
   font-size: 16px;
 }
 #pagewrap{
@@ -74,4 +73,10 @@ nav ul li a:hover, nav ul li a:active{
   padding: 35px;
   box-sizing: border-box;
   display: inline-block;
+}
+i.fa-github-square {
+	padding: 15px 17.281px 15px 17.281px ;
+	border: 2px solid white;
+	border-radius: 100%;
+	transition: border-radius 0.25s, transform 0.5s, color 0.5s, border-color 1s;
 }
