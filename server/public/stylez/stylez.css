@@ -48,17 +48,18 @@ nav ul li{
   text-align: center;
   padding: 20px;
   height: 2%;
+  color: #FAEBD7;
 }
 
 nav ul li a{
   text-decoration: none;
-  color: white;
+  color: #FAEBD7;
   padding: 20px;
 }
 
 /* an underline appears at the bottom on hover of each link */
 nav ul li a:hover, nav ul li a:active{
-  border-bottom: 2px solid #ccc;
+  border-bottom: 2px solid #FAEBD7;
   padding-bottom: 8px;
 }
 /* end of navigation section*/
