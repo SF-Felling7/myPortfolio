@@ -28,6 +28,9 @@ body{
   padding-bottom: 50vh;
   text-align: center;
 }
+.infoTag {
+  font-style: italic;
+}
 /*menu bar*/
 nav{
   position: fixed;
@@ -76,42 +79,108 @@ nav ul li a:hover, nav ul li a:active{
   box-sizing: border-box;
   display: inline-block;
 }
-/*@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
 
 
-.socialbtns, .socialbtns ul, .socialbtns li{
-	margin: 0;
-	padding: 5px;
+$color-github: #4284c0;
+$color-linkedin: #006599;
+
+
+/* Social Icon Mixin */
+@mixin social-icon($color) {
+  background: $color;
+  background: linear-gradient(tint($color, 5%), shade($color, 5%));
+  border-bottom: 1px solid shade($color, 20%);
+  color: tint($color, 50%);
+
+  &:hover {
+    color: tint($color, 80%);
+    text-shadow: 0px 1px 0px shade($color, 20%);
+  }
+
+  .tooltip {
+    background: $color;
+    background: linear-gradient(tint($color, 15%), $color);
+    color: tint($color, 80%);
+
+    &:after {
+      border-top-color: $color;
+    }
+  }
 }
 
-.socialbtns li {
-    list-style: none outside none;
-    display: inline-block;
+/* Social Icons */
+.social-icons {
+  display: inline-flex;
 }
 
-.socialbtns .fa {
-	width: 40px;
-    height: 28px;
-	color: #FFF;
-	background-color: #000;
-	padding-top: 12px;
-	border-radius: 20px;
-	-moz-border-radius: 20px;
-	-webkit-border-radius: 20px;
-	-o-border-radius: 20px;
-	transition: all ease 0.5s;
-	-moz-transition: all ease 0.5s;
-	-webkit-transition: all ease 0.5s;
-	-o-transition: all ease 0.5s;
+.social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 80px;
+  height: 80px;
+  margin: 1em;
+  border-radius: 50%;
+  cursor: pointer;
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 6.5rem;
+  text-decoration: none;
+  text-shadow: 0 1px 0 rgba(0,0,0,0.2);
+  transition: all 0.15s ease;
+  text-align: center;
+
+  &:hover {
+    color: #fff;
+
+    .tooltip {
+      visibility: visible;
+      opacity: 1;
+      transform: translate(-50%, -150%);
+    }
+  }
+
+  &:active {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5) inset;
+  }
+
+  &--linkedin { @include social-icon($color-linkedin); }
+  &--github { @include social-icon($color-github); }
+
+  i {
+    position: relative;
+    top: 1px;
+  }
 }
 
-.socialbtns .fa:hover {
-	transform: scale(1.2,1.2);
-	-moz-transform: scale(1.2,1.2);
-	-webkit-transform: scale(1.2,1.2);
-	-o-transform: scale(1.2,1.2);
-	transition: all ease 0.5s;
-	-moz-transition: all ease 0.5s;
-	-webkit-transition: all ease 0.5s;
-	-o-transition: all ease 0.5s;
-}*/
+/* Tooltips */
+.tooltip {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  padding: 0.8rem 1rem;
+  border-radius: 3px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  opacity: 0;
+  pointer-events: none;
+  text-transform: uppercase;
+  transform: translate(-50%, -100%);
+  transition: all 0.3s ease;
+  z-index: 1;
+
+  &:after {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    content: "";
+    border: solid;
+    border-width: 10px 10px 0 10px;
+    border-color: transparent;
+    transform: translate(-50%, 100%);
+  }
+}
