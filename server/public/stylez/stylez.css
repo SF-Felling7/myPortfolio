@@ -202,7 +202,7 @@ $color-linkedin: #006599;
   border-radius: 25px;
   display: inline-block;
 }
-p {
+.aboutTag {
   display: inline-block;
     margin-left: 540px;
     padding-right: 30px;
