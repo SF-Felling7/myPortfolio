@@ -200,4 +200,8 @@ $color-linkedin: #006599;
   border-style: ridge;
   box-shadow: 8px 8px 10px black;
   border-radius: 25px;
+  display: inline-block;
+}
+.aboutTag {
+vertical-align: top;
 }
