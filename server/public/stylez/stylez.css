@@ -202,6 +202,9 @@ $color-linkedin: #006599;
   border-radius: 25px;
   display: inline-block;
 }
-.aboutTag {
-vertical-align: top;
+p {
+  display: inline-block;
+    margin-left: 540px;
+    padding-right: 30px;
+    vertical-align: top;
 }
