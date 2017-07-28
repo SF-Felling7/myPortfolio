@@ -192,6 +192,8 @@ $color-linkedin: #006599;
     transform: translate(-50%, 100%);
   }
 }
+
+/* Photo on the about.html*/
 .aboutImg {
   height: 405px ;
   width: 360px ;
@@ -202,6 +204,8 @@ $color-linkedin: #006599;
   border-radius: 25px;
   display: inline-block;
 }
+
+/*description in about.html*/
 .aboutTag {
     display: inline-block;
     margin-left: 540px;
@@ -210,6 +214,7 @@ $color-linkedin: #006599;
     font-size: 16px;
 }
 
+/*operation skills about.html*/
 .operateTech {
   display: inline-block;
   margin-left: 267px;
@@ -217,6 +222,8 @@ $color-linkedin: #006599;
   vertical-align: top;
   font-size: 16px;
 }
+
+/*backend languages skills*/
 .backEnd {
   display: inline-block;
   margin-left: 416px;
@@ -224,6 +231,8 @@ $color-linkedin: #006599;
   vertical-align: top;
   font-size: 16px;
 }
+
+/*frontend language skills*/
 .frontEnd {
   display: inline-block;
   margin-left: 438px;
