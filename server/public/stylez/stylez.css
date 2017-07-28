@@ -192,3 +192,15 @@ $color-linkedin: #006599;
     transform: translate(-50%, 100%);
   }
 }
+.aboutImg {
+  height: 390px ;
+  width: 350px ;
+  position: fixed;
+  left: 40px;
+  border-style: ridge;
+  box-shadow: 8px 8px 10px black;
+  border-radius: 25px;
+
+
+
+}
