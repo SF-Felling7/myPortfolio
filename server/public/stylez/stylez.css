@@ -16,7 +16,6 @@ body {
 
 
 /* main header */
-
 #main, nav {
   margin: 1%;
 }
@@ -32,7 +31,6 @@ body {
 }
 
 /*menu bar*/
-
 nav {
   position: fixed;
   top: 0px;
