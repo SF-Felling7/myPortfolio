@@ -1,5 +1,3 @@
-console.log('Working');
-
 var portFolioApp = angular.module('portFolioApp', ['ngRoute']);
 
 
