@@ -12,11 +12,6 @@ app.use('/', function(req, res) {
 });
 
 
-//
-// app.post( '/', function( req, res ) {
-//
-// });
-
 app.listen(3007, function() {
   console.log("server running, check localhost:3007");
 });
