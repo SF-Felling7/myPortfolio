@@ -107,13 +107,10 @@ $color-linkedin: #006599;
   }
 }
 
-
 /* Social Icons */
-
 .social-icons {
   display: inline-flex;
 }
-
 .social-icon {
   display: inline-flex;
   align-items: center;
@@ -153,9 +150,7 @@ $color-linkedin: #006599;
   }
 }
 
-
 /* Tooltips */
-
 .tooltip {
   display: block;
   position: absolute;
