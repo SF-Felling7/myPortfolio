@@ -11,7 +11,7 @@ app.use('/', function(req, res) {
   res.sendFile(path.join(__dirname, './public/views/index.html'));
 });
 
-
+//Spin up Server
 app.listen(3007, function() {
   console.log("server running, check localhost:3007");
 });
