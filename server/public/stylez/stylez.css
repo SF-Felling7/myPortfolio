@@ -260,3 +260,7 @@ $color-linkedin: #006599;
   vertical-align: top;
   padding-top: 20px;
 }
+
+.footerText {
+  text-align: center;
+}
