@@ -236,6 +236,11 @@ $color-linkedin: #006599;
   position: static;
 }
 
+/*shoequeue app image*/
+.shoeQueueImg {
+  position: static;
+}
+
 /*st. croix app description*/
 .aboutCroix {
   font-size: 16px;
