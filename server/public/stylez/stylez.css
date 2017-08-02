@@ -225,6 +225,9 @@ $color-linkedin: #006599;
   vertical-align: top;
   font-size: 16px;
 }
+.stCroixImg {
+  position: static;
+}
 
 .aboutCroix {
   font-size: 16px;
@@ -232,5 +235,5 @@ $color-linkedin: #006599;
   margin-left: 200px;
   padding-right: 120px;
   vertical-align: top;
-padding-top: 20px;
+  padding-top: 20px;
 }
