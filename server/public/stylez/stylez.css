@@ -237,3 +237,11 @@ $color-linkedin: #006599;
   vertical-align: top;
   padding-top: 20px;
 }
+.aboutQueue {
+  font-size: 16px;
+  display: inline-block;
+  margin-left: 200px;
+  padding-right: 200px;
+  vertical-align: top;
+  padding-top: 20px;
+}
