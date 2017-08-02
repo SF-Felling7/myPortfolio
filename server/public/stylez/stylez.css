@@ -61,7 +61,6 @@ nav ul li a {
 
 
 /* an underline appears at the bottom on hover of each link */
-
 nav ul li a:hover, nav ul li a:active {
   text-decoration: none;
   padding-bottom: 8px;
@@ -70,7 +69,6 @@ nav ul li a:hover, nav ul li a:active {
 
 
 /* end of navigation section*/
-
 .myBrand {
   font-family: cursive;
   font-size: 78px;
@@ -87,7 +85,6 @@ $color-github: #4284c0;
 $color-linkedin: #006599;
 
 /* Social Icon Mixin */
-
 @mixin social-icon($color) {
   background: $color;
   background: linear-gradient(tint($color, 5%), shade($color, 5%));
